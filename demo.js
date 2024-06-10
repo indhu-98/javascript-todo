@@ -1,13 +1,18 @@
-var color = "green"
-if(color == "red")
+var season = "winter"
+if(season == "spring")
     {
-    console.log("stop")
-}
-if(color == "yellow")
-{
-    console.log("ready to go")
-}
-if(color == "green")
-    {
-        console.log("go")
+    console.log("enjoy the blooming flowers")
     }
+    if(season == "summer")
+        {
+            console.log("have fun in sun")
+        }
+        if(season == "autumn")
+            {
+                console.log("admire the colorful leaves")
+            }
+            if(season == "winter")
+                {
+                    console.log("bundle up and stay warm")
+                }
+
