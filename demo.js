@@ -1,9 +1,9 @@
-var brush = false
-if(brush)
+var birthday = true
+if(birthday)
 {
-console.log("your teeth or clean")
+console.log("happy birthday")
 }
 else
 {
-    console.log("go brush your teeth now")
+    console.log("have a greatday")
 }
