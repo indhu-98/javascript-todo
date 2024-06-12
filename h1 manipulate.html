@@ -1,13 +1,21 @@
 <html>
-    <head>
-        <title>h1 manipulation</title>
-    </head>
-    <body>
-        <h1 id="title">hello world</h1>
-    </body>
+
+<head>
+    <title>
+        onclick changes
+    </title>
+</head>
+<!--event manipulation-onchange,onclick,onmouseover,onmouseout,onkeydown,onload-->
+<body>
+    <h1 id="one">hello world</h1>
+    <button onclick="change()">change</button>
     <script>
-        var headtag= document.getElementById("title")
-        console.log(headtag.textcontent);
-        headtag.textContent="bye world"
+        var h1 = document.getElementById("one")
+        console.log(h1.textContent);
+        function change() {
+            h1.textContent = "bye world"
+        }
     </script>
+</body>
+
 </html>
